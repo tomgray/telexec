@@ -1,0 +1,25 @@
+# Nix build outputs and direnv
+result
+result-*
+.direnv/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.vscode/settings.json
+
+# Vi temporary files
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Environment variables / local secrets
+.env
+.env.local
